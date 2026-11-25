@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   ART&VALUE — SISTEMA DE DISEÑO Y PALETA ESTRICTA
+   Negro principal: #191820
+   Morado principal: #7b3aec
+   Morado claro:     #bba7fe
+   Verde neón:       #c6ff00
+   ========================================================================== */
+
+:root {
+  --av-bg: #191820;
+  --av-surface: #201f29;
+  --av-surface-elevated: #272533;
+  --av-purple: #7b3aec;
+  --av-purple-hover: #692bd8;
+  --av-lilac: #bba7fe;
+  --av-neon: #c6ff00;
+  --av-neon-hover: #b4eb00;
+  --av-text: #f4f3f8;
+  --av-border: rgba(187, 167, 254, 0.18);
+  --av-border-strong: rgba(187, 167, 254, 0.36);
+
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--av-bg);
+    color: var(--av-text);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Anillo de enfoque visible y accesible */
+  *:focus-visible {
+    outline: 2px solid var(--av-neon);
+    outline-offset: 2px;
+  }
+}
+
+/* Barra de desplazamiento discreta integrada con la paleta */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #191820;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(187, 167, 254, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(187, 167, 254, 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
