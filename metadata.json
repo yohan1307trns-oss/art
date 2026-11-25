@@ -1,0 +1,6 @@
+{
+  "name": "Art&Value",
+  "description": "Plataforma web para artistas y creadores digitales: gestión de catálogo de materiales físicos y digitales, cálculo de cotizaciones, conversión de divisas y control de usuarios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
