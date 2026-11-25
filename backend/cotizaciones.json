@@ -1,0 +1,86 @@
+[
+  {
+    "id": "COT-1042",
+    "tituloProyecto": "Retrato acrílico sobre lienzo 60x80",
+    "artista": "Koko",
+    "fechaISO": "2026-11-22",
+    "nivel": "Semi Senior",
+    "precioHoraMxn": 280,
+    "horas": 14,
+    "metodoPago": "Transferencia",
+    "divisa": "MXN",
+    "tipoCambioMxn": 1,
+    "formato": "Tradicional",
+    "materiales": [
+      {
+        "uid": "seed-1",
+        "materialId": 4,
+        "nombre": "Lienzo",
+        "precioBase": 150,
+        "usoPrecioBase": false,
+        "precioPagado": 210,
+        "precioUnitarioAplicado": 180,
+        "cantidad": 1,
+        "subtotalMxn": 180
+      },
+      {
+        "uid": "seed-2",
+        "materialId": 2,
+        "nombre": "Pintura",
+        "precioBase": 50,
+        "usoPrecioBase": true,
+        "precioPagado": null,
+        "precioUnitarioAplicado": 50,
+        "cantidad": 4,
+        "subtotalMxn": 200
+      },
+      {
+        "uid": "seed-3",
+        "materialId": 5,
+        "nombre": "Barniz",
+        "precioBase": 80,
+        "usoPrecioBase": true,
+        "precioPagado": null,
+        "precioUnitarioAplicado": 80,
+        "cantidad": 1,
+        "subtotalMxn": 80
+      }
+    ],
+    "costoMaterialesMxn": 460,
+    "manoObraMxn": 3920,
+    "costosExtraMxn": 150,
+    "totalMxn": 4530,
+    "precioFinalDivisa": 4530
+  },
+  {
+    "id": "COT-1041",
+    "tituloProyecto": "Ilustración editorial y portada conceptual",
+    "artista": "Yohan",
+    "fechaISO": "2026-11-20",
+    "nivel": "Senior",
+    "precioHoraMxn": 450,
+    "horas": 18,
+    "metodoPago": "Transferencia",
+    "divisa": "USD",
+    "tipoCambioMxn": 20.15,
+    "formato": "Digital",
+    "materiales": [
+      {
+        "uid": "seed-4",
+        "materialId": 1,
+        "nombre": "Plataformas",
+        "precioBase": 950,
+        "usoPrecioBase": true,
+        "precioPagado": null,
+        "precioUnitarioAplicado": 950,
+        "cantidad": 1,
+        "subtotalMxn": 950
+      }
+    ],
+    "costoMaterialesMxn": 950,
+    "manoObraMxn": 8100,
+    "costosExtraMxn": 220,
+    "totalMxn": 9270,
+    "precioFinalDivisa": 460.05
+  }
+]
