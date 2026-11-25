@@ -1,7 +1,0 @@
-Lapiz,10
-Pintura,50
-Tipos de hojas,2
-Lienzo,150
-Barniz,80
-Colores,45
-Pinceles,200
